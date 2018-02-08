@@ -1,0 +1,458 @@
+# Translation of Themes - Zillah in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Zillah package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-29 19:35:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Zillah\n"
+
+#. Description of the plugin/theme
+msgid "Zillah is a free minimal blogging WordPress theme from ThemeIsle. Is responsive and compatible with a wide range of plugins like : Nivo Slider, Siteorigin Page Builder, WooCoomerce, Photo Gallery Grid and Contact Form 7."
+msgstr "Zillah é um tema gratuito e minimalista da ThemeIsle para blogues. É responsivo e compatível com uma grande gama de plug-ins como: Nivo Slider, Site Origin Page Builder, WooCommerce, Photo Gallery Grid e Contact Form 7."
+
+#. Theme Name of the plugin/theme
+msgid "Zillah"
+msgstr "Zillah"
+
+#: inc/template-tags.php:146
+msgid "Last Updated:"
+msgstr "Última atualização:"
+
+#: inc/template-tags.php:147
+msgid "Posted:"
+msgstr "Publicação:"
+
+#: inc/customizer.php:141
+msgid "Show updated date in post header."
+msgstr "Mostrar a data de atualização no cabeçalho do post."
+
+#. translators: %s: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Uma ideia sobre &ldquo;%s&rdquo;"
+
+#. translators: 1: number of comments, 2: post title
+#: inc/template-tags.php:192
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s comentário"
+msgstr[1] "%1$s comentários"
+
+#. translators: %s: post title
+#: inc/template-tags.php:188
+msgctxt "comments title"
+msgid "1 Comment"
+msgstr "Um comentário"
+
+#: inc/customizer.php:69
+msgid "If you check this box, the alternative layout will be used on blog and single page."
+msgstr "Ao marcar esta caixa, o leiaute alternativo será usado no blog e nas páginas internas."
+
+#: inc/customizer.php:68
+msgid "Alternative layout"
+msgstr "Leiaute alternativo"
+
+#. translators: s: The post title
+#: functions.php:333
+msgid "Read the post %s"
+msgstr "Ler o artigo %s"
+
+#. translators: %s: Name of current post.
+#: template-parts/content-single-alternative.php:43
+#: template-parts/content-single.php:42
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue a ler %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:37
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: template-parts/content-alternative.php:49 template-parts/content-page.php:23
+#: template-parts/content-single-alternative.php:55
+#: template-parts/content-single.php:54 template-parts/content.php:59
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content-none.php:49
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não conseguimos encontrar o que você estava procurando. De repente fazer uma busca possa ajudar."
+
+#: template-parts/content-none.php:42
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Desculpas, mas nada foi encontrado com seus termos de busca. Por favor, tente novamente com termos diferentes."
+
+#. translators: 1: link to new post
+#: template-parts/content-none.php:29
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar seu primeiro texto? <a href=\"%1$s\">Comece por aqui</a>."
+
+#: template-parts/content-none.php:16
+msgid "Sorry, nothing found!"
+msgstr "Desculpas, nada foi encontrado!"
+
+#: single.php:31
+msgctxt "next post"
+msgid "<span class=\"post-title\">%title</span>"
+msgstr "<span class=\"post-title\">%title</span>"
+
+#: single.php:30
+msgctxt "previous post"
+msgid "<span class=\"post-title\">%title</span>"
+msgstr "<span class=\"post-title\">%title</span>"
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "Pesquisa"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Pesquisar &hellip;"
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Pesquisa por:"
+
+#. translators: s: search term
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Resultados da pesquisa por: %s"
+
+#: inc/widgets/class-zillah-about-me.php:107
+msgid "Add your text:"
+msgstr "Adicione seu texto:"
+
+#: inc/widgets/class-zillah-about-me.php:104
+msgid "Enter the URL for your photo"
+msgstr "Entre o URL para sua foto"
+
+#: inc/widgets/class-zillah-about-me.php:101
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/widgets/class-zillah-about-me.php:25
+msgid "Zillah: About me"
+msgstr "Zillah: Sobre mim"
+
+#: inc/widgets/class-zillah-about-me.php:19
+msgid "About me widget."
+msgstr "Widget com conteúdo \"sobre mim\"."
+
+#: inc/template-tags.php:169
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorias"
+
+#: inc/template-tags.php:165
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:68
+msgid " Edit %s"
+msgstr " Editar %s"
+
+#. translators: 1: tags
+#: inc/template-tags.php:60
+msgid "Tagged %1$s"
+msgstr "Marcado com %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:57
+msgid ", "
+msgstr ", "
+
+#. translators: s: post author
+#: inc/template-tags.php:36
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: s: post date
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado em %s"
+
+#. translators: 1: feature name 2: Jetpack module name
+#: inc/class-zillah-theme-plugin-enhancements.php:327
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr "Para usar %1$s, por favor, ative o recurso %2$s do plug-in Jetpack."
+
+#: inc/class-zillah-theme-plugin-enhancements.php:301
+msgid "Install"
+msgstr "Instalar"
+
+#. translators: 1: plugin name 2: install link
+#: inc/class-zillah-theme-plugin-enhancements.php:299
+msgid " Please install %1$s. %2$s"
+msgstr " Por favor, instale %1$s. %2$s"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:290
+msgid "Activate"
+msgstr "Ativar"
+
+#. translators: 1: plugin name 2: activation link
+#: inc/class-zillah-theme-plugin-enhancements.php:288
+msgid " Please activate %1$s. %2$s"
+msgstr " Por favor, ative %1$s. %2$s"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:216
+msgid "Custom Content Types module"
+msgstr "Módulo Tipos de Conteúdo Personalizados"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:215
+msgid "no specific module needed"
+msgstr "nenhum módulo específico necessário"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:197
+msgid "Social Links"
+msgstr "Links sociais"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:188
+msgid "Related Posts"
+msgstr "Posts relacionados"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:179
+msgid "Portfolios"
+msgstr "Portfólios"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:170
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:161
+msgid "Comics"
+msgstr "Histórias em quadrinhos"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:152
+msgid "Menus"
+msgstr "Menus"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:143
+msgid "Social Menu"
+msgstr "Menu social"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:134
+msgid "Featured Content"
+msgstr "Conteúdo em destaque"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:125
+msgid "Site Logo"
+msgstr "Logotipo do site"
+
+#: inc/class-zillah-theme-plugin-enhancements.php:102
+msgid "Simple Contact Form Plugin - PirateForms plugin"
+msgstr "Plug-in Simple Contact Form - plug-in PirateForms"
+
+#. translators:  'Simple Contact Form Plugin - PirateForms plugin'
+#: inc/class-zillah-theme-plugin-enhancements.php:101
+msgid "The %1$s is recommended to use some of this theme&rsquo;s features."
+msgstr "É recomendada a instalação do %1$s para usar alguns dos recursos desse tema."
+
+#: inc/class-zillah-theme-plugin-enhancements.php:92
+msgid "Jetpack plugin"
+msgstr "Plug-in Jetpack"
+
+#. translators:  'Jetpack plugin'
+#: inc/class-zillah-theme-plugin-enhancements.php:91
+msgid "The %1$s is recommended to use some of this theme&rsquo;s features, including: "
+msgstr "O %1$s é recomendado para usar alguns dos recursos desse tema, incluindo:"
+
+#: inc/customizer.php:332
+msgid "Logo"
+msgstr "Logotipo"
+
+#: inc/customizer.php:202
+msgid "Change the color scheme"
+msgstr "Mudar o esquema de cores"
+
+#: inc/customizer.php:167
+msgid "If you check this box, the slider area will appear on the homepage."
+msgstr "Ao marcar esta caixa, uma área de \"slider\" irá aparecer na página inicial."
+
+#: inc/customizer.php:166
+msgid "Show slider"
+msgstr "Mostrar \"slider\""
+
+#: inc/customizer.php:151
+msgid "Featured content slider"
+msgstr "\"Slider\" de conteúdo em destaque"
+
+#: inc/customizer.php:124
+msgid "Get 1st image in the post as featured."
+msgstr "Usa a primeira imagem do post como a imagem de destaque."
+
+#: inc/customizer.php:107
+msgid "If you check this box, the tags will appear in posts."
+msgstr "Ao marcar esta caixa, a lista de marcações irá aparecer nos posts."
+
+#: inc/customizer.php:106
+msgid "Show tags"
+msgstr "Mostrar marcações"
+
+#: inc/customizer.php:88
+msgid "If you check this box, the sidebar will appear on homepage and archive page."
+msgstr "Ao marcar esta caixa, a barra lateral irá aparecer na página inicial e na página dos arquivos."
+
+#: inc/customizer.php:87
+msgid "Show sidebar"
+msgstr "Mostrar barra lateral"
+
+#: inc/customizer.php:53
+msgid "Theme options"
+msgstr "Opções do tema"
+
+#: inc/customizer.php:43
+msgid "Hide Site Title"
+msgstr "Ocultar título do site"
+
+#: inc/class/class-zillah-category-control.php:24
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Selecione &mdash;"
+
+#: inc/class/class-zillah-palette.php:65 inc/class/class-zillah-palette.php:74
+msgid "Default"
+msgstr "Padrão"
+
+#: inc/class/class-zillah-google-fonts-control.php:62
+msgid "No fonts to show"
+msgstr "Sem fontes para mostrar"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "Pular para o conteúdo"
+
+#. translators: s: The post title
+#: functions.php:324 functions.php:341
+msgid "Continue Reading %s"
+msgstr "Continue a ler %s"
+
+#: functions.php:243
+msgid "collapse child menu"
+msgstr "recolher menu-filho"
+
+#: functions.php:242
+msgid "expand child menu"
+msgstr "expandir menu-filho"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:199
+msgctxt "Merriweather font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:192
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Bitter, translate this to 'off'. Do not translate into your own language.
+#: functions.php:185
+msgctxt "Cabin font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: d: Sidebar number
+#: functions.php:144
+msgid "Footer Widget Area %d"
+msgstr "Área de widgets do rodapé %d"
+
+#: functions.php:133 functions.php:147
+msgid "Add widgets here."
+msgstr "Adicione widgets aqui."
+
+#: functions.php:131 sidebar.php:21
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:53
+msgid "Social Links Menu"
+msgstr "Menu de links sociais"
+
+#: functions.php:52
+msgid "Primary"
+msgstr "Primário"
+
+#: footer.php:81
+msgid "Back to top"
+msgstr "Voltar ao início"
+
+#. translators: s: 'Themeisle'
+#: footer.php:76
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#. translators: 1: Link to ThemeIsle.com
+#: footer.php:74
+msgid "Theme Zillah by %1$s"
+msgstr "Tema Zillah por %1$s"
+
+#. translators: 1: s: 'WordPress'
+#: footer.php:67
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: 1: Link to WordPress.org
+#: footer.php:65
+msgid "Proudly powered by %1$s"
+msgstr "Orgulhosamente baseado no %1$s"
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr "Não é possível comentar."
+
+#: comments.php:59 comments.php:83
+msgid "Newer Comments"
+msgstr "Comentários recentes"
+
+#: comments.php:58 comments.php:82
+msgid "Older Comments"
+msgstr "Comentários antigos"
+
+#: comments.php:55 comments.php:79
+msgid "Comment navigation"
+msgstr "Navegação nos comentários"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:39
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s ideia sobre &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s ideias sobre &ldquo;%2$s&rdquo;"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que nada foi encontrado neste endereço. Que tal tentar alguns dos links abaixo ou realizar uma busca?"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Epa! Essa página não pode ser encontrada."
+
+#. Author URI of the plugin/theme
+msgid "http://themeisle.com"
+msgstr "http://themeisle.com"
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/zillah/"
+msgstr "https://themeisle.com/themes/zillah/"

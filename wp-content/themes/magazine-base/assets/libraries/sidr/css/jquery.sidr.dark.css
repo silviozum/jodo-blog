@@ -1,0 +1,51 @@
+.sidr {
+    background: #333;
+    color: #fff;
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 99999;
+    width: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidr .sidr-inner {
+    padding: 0 0 15px;
+}
+
+.sidr-class-sidr-button-close {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.sidr.right {
+    left: auto;
+    right: -320px;
+}
+
+.sidr.left {
+    left: -320px;
+    right: auto;
+}
+
+.sidr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sidr .widget-title {
+    color: #fff;
+}
+
+.switch input {
+    position: absolute;
+    opacity: 0;
+}
+
+.sidr-class-sidr-button-close .ion-ios-close {
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+}
