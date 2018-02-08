@@ -569,11 +569,11 @@ a:hover, a:focus, a:active {
 }
 .post-template-default .widget-area{display: block;}
 .post-template-default #primary, .post-template-default #secondary {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    float: none !important;
 }
-.post-template-default .site.tiled .site-content .content-area article {
-      padding: 20px 88px !important;
-}
+
 .post-template-default .col{
     display: inline-block;
     width: 33.33333%;
